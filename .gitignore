@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.venv/
+.env
+
+# Trained model weights (large binary files — store separately)
+accent-model/model.pt
+accent-model/data/speech_accent_archive/
+accent-model/data/common_voice/
+accent-model/data/processed/
+
+# Node
+app/frontend/node_modules/
+app/frontend/dist/
+
+# Whisper cache
+~/.cache/whisper/
+whisper_cache/
+
+# HuggingFace model cache
+.cache/huggingface/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+tmp/
+*.tmp
